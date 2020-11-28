@@ -1,0 +1,6 @@
+name: "QWshr"
+dscription: "Service for sharing your contancts through links"
+author: "Vladimir Barinov"
+version: "2.0"
+
+init: "bootstrap.php"

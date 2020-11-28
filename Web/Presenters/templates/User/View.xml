@@ -1,0 +1,22 @@
+{extends "../@layout.xml"}
+
+{block title}@{$user->getNickname()}{/block}
+
+{block content}
+<div class="hero py-4">
+    <div class="container">
+        <img src="/assets/packages/static/qwshr/img/avatar.png" alt="avatar" class="mx-auto d-block rounded-circle" height="100">
+        <p class="text-center h4">{$user->getIRLName()}</p>
+        <p class="text-center"><b>@{$user->getNickname()}</b></p>
+        {if !is_null($user->getBio())}<p class="text-center">{$user->getBio()}</p>{/if}
+
+        {if $thisUser->getId() == $user->getId()}
+        <p class="text-center"><a href="/settings" class="btn btn-primary">Edit profile</a></p>
+        {/if}
+
+        {foreach $user->getLinks() as $link}
+            <p class="text-center"><a href="{$link->getUrl()}" class="btn-link">{$link->getCaption()}</a></p>
+        {/foreach}
+    </dev>
+</dev>
+{/block}

@@ -1,0 +1,24 @@
+{
+    "services": [{
+        "type": "youtube",
+        "url": ["youtube.com", "youtu.be", "www.youtube.com", "www.youtu.be"]
+    }, {
+        "type": "twitch",
+        "url": ["twitch.tv", "www.twitch.tv"]
+    }, {
+        "type": "twitter",
+        "url": ["twitter.com", "www.twitter.com"]
+    }, {
+        "type": "facebook",
+        "url": ["facebook.com", "www.facebook.com"]
+    }, {
+        "type": "spotify",
+        "url": ["open.spotify.com"]
+    }, {
+        "type": "telegram",
+        "url": ["telegram.me", "t.me"]
+    }, {
+        "type": "vk",
+        "url": ["vk.com", "vk.me", "www.vk.com"]
+    }]
+}

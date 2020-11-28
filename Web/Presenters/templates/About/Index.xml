@@ -1,0 +1,12 @@
+{extends "../@layout.xml"}
+
+{block content}
+<div class="hero py-5">
+    <div class="container">
+        <div class="jumbotron">
+            <h1><b>qwshr</b> - a quick way to share your contacts</h1>
+            <p class="lead">Just drop your link to interlocutor</p>
+        </div>
+    </div>
+</div>
+{/block}

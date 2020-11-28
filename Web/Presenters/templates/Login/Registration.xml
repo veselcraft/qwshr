@@ -1,0 +1,28 @@
+{extends "../@layout.xml"}
+
+{block title}Registration{/block}
+
+{block content}
+<div class="hero py-2">
+    <div class="container">
+        <h1>Registration</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">That email will be used to sign in.</small>
+            </div>
+            <div class="form-group">
+                <label for="nickname">Nickname</label>
+                <input type="text" class="form-control" name="nickname" aria-describedby="nicknameHelp">
+                <small id="nicknameHelp" class="form-text text-muted">Type in your nickname for URL. It can be written only with Latin symbols and numbers.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+</div>
+{/block}

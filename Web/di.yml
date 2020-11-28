@@ -1,0 +1,7 @@
+services:
+    - qwshr\Web\Presenters\AboutPresenter
+    - qwshr\Web\Presenters\LoginPresenter
+    - qwshr\Web\Presenters\UserPresenter
+    - qwshr\Web\Presenters\APIPresenter
+    - qwshr\Web\Models\Entities\User
+    - qwshr\Web\Models\Repositories\Users
